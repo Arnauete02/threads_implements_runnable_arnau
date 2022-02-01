@@ -1,5 +1,7 @@
 package com.company.exercici1;
 
+import com.company.exercici1.Llibreries.Pantalles.MenuConstructorPantalla;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -54,7 +56,7 @@ public class PNS24_Puma {
             menu.append("50. Tancar el sistema");
             menu.append(System.getProperty("line.separator"));
 
-            System.out.print(Pantalles.MenuConstructorPantalla.constructorPantalla(menu));
+            System.out.print(MenuConstructorPantalla.constructorPantalla(menu));
 
             opcio = sc.next();
 
